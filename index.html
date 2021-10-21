@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="col">
+                <p id="result"></p>
+                <p id="value"></p>
+            </div>
+            <div class="row">
+                <p class="item colored" id="reset" data-value="AC" data-key="27">AC</p>
+                <p class="item colored" id="percent" data-value="%">%</p>
+                <p class="item colored" id="delete" data-value="C" data-key="8">C</p>
+                <p class="item colored operator" id="division" data-value="/" data-key="111">/</p>
+            </div>
+            <div class="row">
+                <p class="item" id="seven" data-value="7" data-key="103">7</p>
+                <p class="item" id="eight" data-value="8" data-key="104">8</p>
+                <p class="item" id="nine" data-value="9" data-key="105">9</p>
+                <p class="item colored" id="multiply" data-value="*" data-key="106">*</p>
+            </div>
+            <div class="row">
+                <p class="item" id="four" data-value="4" data-key="100">4</p>
+                <p class="item" id="five" data-value="5" data-key="101">5</p>
+                <p class="item" id="six" data-value="6" data-key="102">6</p>
+                <p class="item colored" id="minus" data-value="-" data-key="109">-</p>
+            </div>
+            <div class="row">
+                <p class="item" id="one" data-value="1" data-key="97">1</p>
+                <p class="item" id="two" data-value="2" data-key="98">2</p>
+                <p class="item" id="three" data-value="3" data-key="99">3</p>
+                <p class="item colored" id="plus" data-value="+" data-key="107">+</p>
+            </div>
+            <div class="row">
+                <p class="item" id="double" data-value="00">00</p>
+                <p class="item" id="zero" data-value="0" data-key="96">0</p>
+                <p class="item" id="dot" data-value="." data-key="110">.</p>
+                <p class="item colored" id="equal" data-value="=" data-key="13">=</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js" defer></script>
+</body>
+</html>
